@@ -32,3 +32,9 @@ def userURIBuilder(server, port, **user):
 print(userURIBuilder("credu.com","80",id="kim",passwd="1234"))
 print(userURIBuilder("credu.com","80",id="kim",passwd="1234",
     name = "mike"))
+
+#람다함수
+g = lambda x,y:x*y
+print(g(3,4))
+print((lambda x:x*x)(3))
+print( globals())
