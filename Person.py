@@ -11,3 +11,8 @@ p2 = Person()
 p1.name = "전우치"
 p1.print()
 p2.print()
+
+Person.title = "New title"
+print(p1.title)
+print(p2.title)
+print(Person.title)
