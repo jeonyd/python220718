@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 form_class = uic.loadUiType("DemoForm2.ui")[0]
 
 # 클래스 정의(QMainWindow)
-class DemoForm(QMainWindow, form_class):
+class DemoForm(QMainWindow, form_class): #창 여러개 띄워서 왔다갔다 하는 건 QMainWindow 메뉴툴바 등등  <->간단한건 QDialog
     #초기화 매서드
     def __init__(self):
         super().__init__()
